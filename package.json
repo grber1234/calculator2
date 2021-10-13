@@ -1,0 +1,27 @@
+{
+  "name": "calculator2",
+  "version": "0.0.1",
+  "description": "A tutorial for teaching enterprise scale software engineering applications development.",
+  "main": "./src/application/calculator2/application.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "babel-node ./src/application/calculator2/application.js"
+      },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grber1234/calculator2.git"
+  },
+  "author": "Glenn Butler",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/grber1234/calculator2/issues"
+  },
+  "homepage": "https://github.com/grber1234/calculator2#readme",
+  "dependencies": {
+    "@babel/cli": "^7.15.7",
+    "@babel/core": "^7.15.8",
+    "@babel/node": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
+    "prompt-sync": "^4.2.0"
+  }
+}
